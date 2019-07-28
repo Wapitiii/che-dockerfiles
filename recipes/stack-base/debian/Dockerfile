@@ -20,6 +20,7 @@ RUN echo "deb http://ftp.debian.org/debian stretch-backports main" >> /etc/apt/s
     rsync \
     procps \
     -t stretch-backports \
+    apt-utils \
     gnupg \
     gnupg2 \
     gnupg1 \
