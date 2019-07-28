@@ -19,6 +19,9 @@ RUN echo "deb http://ftp.debian.org/debian stretch-backports main" >> /etc/apt/s
     rsync \
     procps \
     -t stretch-backports \
+    gnupg \
+    gnupg2 \
+    gnupg1 \
     openjdk-8-jdk-headless \
     openjdk-8-source \
     wget \
