@@ -25,8 +25,8 @@ RUN echo "deb http://ftp.debian.org/debian stretch-backports main" >> /etc/apt/s
     gnupg \
     gnupg2 \
     gnupg1 \
-    openjdk-8-jdk-headless \
-    openjdk-8-source \
+    openjdk-8-jdk-headless=8u222-b10-1~deb9u1 \
+    openjdk-8-source=8u222-b10-1~deb9u1 \
     wget \
     unzip \
     mc \
