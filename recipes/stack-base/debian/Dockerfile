@@ -13,7 +13,7 @@ FROM debian:stretch
 ENV JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
 ENV PATH $JAVA_HOME/bin:$PATH
 RUN echo "deb http://ftp.debian.org/debian stretch-backports main" >> /etc/apt/sources.list && \
-    deb http://http.debian.net/debian jessie-backports main" >> /etc/apt/sources.list && \
+    echo "deb http://http.debian.net/debian jessie-backports main" >> /etc/apt/sources.list && \
     apt-get update && \
     apt-get -y install \
     openssh-server \
